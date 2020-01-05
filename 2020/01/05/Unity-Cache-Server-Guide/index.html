@@ -402,7 +402,7 @@ height:50vh;
             <main class="main post-page">
     <article class="article-entry">
         <h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>项目的资源越来越多，切换平台动辄Hold On几个小时。这时就很有必要用Unity Cache Server（以下简称UCS）来节省时间。UCS的大致原理就是将Library目录里各平台的资源上传到服务器，开发组成员切换平台时，Unity编辑器如果连着UCS，就会先去查UCS上有没有已经转换完毕的资源，若有则接下载到本地即可，没有就转换然后上传。如此一来，只有首次上传的资源切换平台比较耗时，后续都直接从UCS下载，速度倍增。介绍UCS搭建的帖子很多，但随着Unity 2019.3的推出，其方法也有不小的变化。经过摸索，我成功地搭建了适用于Unity 2019.3地UCS，特分享经验于此。</p>
+<p>项目资源越来越多，切换平台极为耗时。这就很有必要借助Unity Cache Server（以下简称UCS）来节省时间。UCS的大致原理就是将Library目录里各平台的资源上传到服务器，建立缓存；切换平台时，Unity Editor如果连着UCS，就会先上UCS查看有没有已经转换完毕的资源，若有则下载到本地，没有就转换再上传。如此一来，只有首次切换平台+上传耗时，后续都直接从UCS下载，效率倍增。介绍UCS搭建的帖子很多，但随着Unity 2019.3的推出，其方法也有不小的变化。经过摸索，我成功地搭建了适用于Unity 2019.3的UCS，特分享经验于此。</p>
 <h2 id="操作步骤"><a class="markdownIt-Anchor" href="#操作步骤"></a> 操作步骤</h2>
 <ol>
 <li>
@@ -460,8 +460,8 @@ WARNING: NODE_APP_INSTANCE value of ‘0’ did not match any instance config fi
         <div class="license-wrapper">
             <p>原文作者：<a href="https://cybercser.github.io">cybercser</a>
             <p>原文链接：<a href="https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/">https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/</a>
-            <p>发表日期：<a href="https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/">一月 5日 2020, 6:37:51 晚上</a>
-            <p>更新日期：<a href="https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/">January 5th 2020, 8:45:27 pm</a>
+            <p>发表日期：<a href="https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/">January 5th 2020, 6:37:51 pm</a>
+            <p>更新日期：<a href="https://cybercser.github.io/2020/01/05/Unity-Cache-Server-Guide/">January 5th 2020, 8:52:51 pm</a>
             <p>版权声明：本文采用<a rel="license noopener" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
     
